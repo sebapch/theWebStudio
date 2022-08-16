@@ -1,0 +1,36 @@
+.navbarText{
+    color: white;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 1s;
+}
+
+.navbarText:hover{
+    color: white;
+    border-bottom: 1px solid #E94560;
+}
+
+.navbarButton{
+    color: white;
+    border: 1px solid #E94560;
+    text-align: center;
+    transition: box-shadow 1s;
+}
+
+.navbarButton:hover{
+    color: white;
+    box-shadow: 0 1px 1px 1px #E94560;
+}
+
+.navbarLogo{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+    transition: font-size 1s;
+}
+
+.navbarLogo:hover{
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+  
+}

@@ -1,0 +1,50 @@
+.contact-box{
+    border: 2px solid #E94560;
+    width: 100%;
+}
+
+.contact-content-box{
+    padding: 3rem;
+}
+
+.contact-title{
+    text-align: center;
+    width: 100%;
+}
+
+.contact-label{
+    display: flex !important;
+    justify-content: center;
+}
+
+.contact-inputForm{
+    color: white !important;
+    border: none;
+    border-bottom: 1px solid #E94560;
+    background-color: transparent !important;
+    margin-bottom: 2rem;
+    border-radius: 0px;
+}
+
+.contact-inputForm-last{
+    color: white !important;
+    border: none;
+    border-bottom: 1px solid #E94560;
+    background-color: transparent !important;
+    
+    border-radius: 0px;
+}
+
+.contact-textArea{
+    color: white !important;
+    border: none;
+    border-bottom: 1px solid #E94560;
+    background-color: transparent !important;
+    border-radius: 0px;
+}
+
+.button-contact{
+    background-color: #E94560;
+    color: white;
+    padding: 1rem 2rem;
+}

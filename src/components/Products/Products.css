@@ -1,0 +1,41 @@
+.title-products{
+    text-align: center;
+    color: white;
+    /* background: -webkit-linear-gradient(180deg,#949EB2, #3a5191); */
+    /* -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.dev-title{
+     background: -webkit-linear-gradient(180deg,#949EB2, #3a5191); 
+     -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    font-size: 1.8rem;
+    margin-top: 2rem;
+}
+
+.dev-text{
+    color: #CCCCCC;
+    font-size: 0.9rem;
+}
+
+.dev-link{
+    color: #E94560;
+    margin-bottom: 3rem;
+}
+
+@media (max-width: 600px) {
+    .title-container{
+        margin-bottom: 5rem;
+        margin-top: 2rem;
+    }
+
+    .title{
+        text-align: center;
+        background: -webkit-linear-gradient(180deg,#949EB2, #3a5191);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+  }

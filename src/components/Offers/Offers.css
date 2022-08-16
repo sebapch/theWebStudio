@@ -1,0 +1,27 @@
+.title-offers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: -webkit-linear-gradient(180deg,#949EB2, #3a5191);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.image-container{
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.offers-image{
+    max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 600px) {
+    .title-container{
+        margin-bottom: 5rem;
+        margin-top: 2rem;
+    }
+
+    
+  }

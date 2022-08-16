@@ -1,0 +1,41 @@
+.div-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.faq-container{
+    display: flex;
+    border-bottom: 1px solid #E94560;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    padding: 1rem;
+}
+
+.faq-question{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.dropdown-icon{
+   display: flex;
+   align-items: center;
+   height: 100%;
+   font-size: 5rem;
+   color: #E94560;
+}
+
+.answer-faq-disabled{
+    color: #E94560;
+    opacity: 0;
+    transition: all 1s;
+    
+}
+
+.answer-faq-enabled{
+    color: #E94560;
+    opacity: 1;
+    transition: right 1s ease-in-out;
+    
+}

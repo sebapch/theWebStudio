@@ -1,0 +1,17 @@
+.logos {
+    filter: grayscale(100%);
+}
+
+@media (max-width: 600px) {
+    .title-container{
+        margin-bottom: 5rem;
+        margin-top: 2rem;
+    }
+
+    .title{
+        text-align: center;
+        background: -webkit-linear-gradient(180deg,#949EB2, #3a5191);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+  }
