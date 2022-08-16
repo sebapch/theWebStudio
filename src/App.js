@@ -13,8 +13,11 @@ import Footer from './components/Footer/Footer';
 import {LangContext, LangProvider} from './context/langContext'
 
 function App() {
+
+
+
   return (
-    <>
+    <> 
     <LangProvider>
       <NavbarComponent />
       <Title />
@@ -24,7 +27,7 @@ function App() {
       <Products />
       <Questions />
       <Contact />
-      <NavbarComponent />
+      <Footer />
     </LangProvider>
     </>
   );

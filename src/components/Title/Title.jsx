@@ -15,7 +15,7 @@ import {LangContext} from '../../context/langContext'
 const Title = () => {
   const { language } = useContext(LangContext);
 
-  console.log(language)
+
 
   return (
     <div className="title-container">
