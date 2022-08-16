@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useContext} from "react";
 import { Container, Col, Row } from "react-bootstrap";
 import { Button } from '@mui/material';
 import NodeLogo from '../../assets/nodejs.png'
@@ -7,11 +7,16 @@ import JavascriptLogo from '../../assets/javascript.png'
 import SolidityLogo from '../../assets/solidity.png'
 import HTML5Logo from '../../assets/html5.png'
 import './Title.css'
+import {LangContext} from '../../context/langContext'
 
 
 
 
 const Title = () => {
+  const { language } = useContext(LangContext);
+
+  console.log(language)
+
   return (
     <div className="title-container">
     <Container className="d-flex flex-column align-items-center justify-content-evenly" style={{height: '60vh'}} >

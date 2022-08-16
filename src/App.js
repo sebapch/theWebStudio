@@ -10,10 +10,12 @@ import Products from './components/Products/Products';
 import Questions from './components/Questions/Questions';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
+import {LangContext, LangProvider} from './context/langContext'
 
 function App() {
   return (
     <>
+    <LangProvider>
       <NavbarComponent />
       <Title />
       <About />
@@ -23,6 +25,7 @@ function App() {
       <Questions />
       <Contact />
       <NavbarComponent />
+    </LangProvider>
     </>
   );
 }

@@ -1,6 +1,8 @@
 import React from 'react'
 import { Container, Col, Row, Button, Nav, Navbar , NavDropdown } from 'react-bootstrap'
 import './NavbarComponent.css'
+import Argentina from '../../assets/argentina.svg'
+import EEUU from '../../assets/EEUU.png'
 
 
 const NavbarComponent = () => {
@@ -17,11 +19,16 @@ const NavbarComponent = () => {
             <Nav.Link href="#pricing" className='navbarText'>Services</Nav.Link>
             <Nav.Link href="#pricing" className='navbarText'>Benefits</Nav.Link>
             <Nav.Link href="#pricing" className='navbarText'>Cases</Nav.Link>
+            <Nav.Link >
+            <img src={Argentina} width="32px"  alt='arg' />
+            &nbsp;&nbsp;
+            <img src={EEUU} width="32px"  alt='EEUU'/>
+            </Nav.Link>
           </Nav>
           <Nav>
-          
             <Nav.Link href="#deets" className='navbarButton'>Get Consultation</Nav.Link>
           </Nav>
+         
         </Navbar.Collapse>
       </Container>
     </Navbar>
