@@ -1,0 +1,18 @@
+.title-about{
+    background: -webkit-linear-gradient(180deg,#949EB2, #3a5191);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.p-about{
+    color: #777C9A;
+    width: 75%;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .p-about{
+        width: 100%;
+    }
+  }
+
